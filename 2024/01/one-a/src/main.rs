@@ -25,7 +25,7 @@ fn main() {
      sum += a.abs_diff(*b);
  }
 
- println!("Result = {}", sum);
+ println!("{}", sum);
 }
 
 fn read_file(file_path: &str) -> Result<String, Box<dyn Error>> {
